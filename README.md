@@ -23,7 +23,7 @@ sudo apt-get install python3-pip python3-dev
 pip3 install nameko
 pip3 install flask
 pip3 install flasgger
-pip3 install git+https://github.com/tgalal/yowsup@master
+pip3 install git+https://github.com/publinchi/yowsup@master
 # Install RabbitMQ
 apt-get install rabbitmq-server
 
@@ -36,12 +36,12 @@ rename "service.yml.sample to "service.yml" and put your credentials into it.
 
 ###Usage:
 
-Run the the Service with:
+Run the Service with:
 ```
 startservice.sh
 ```
 
-Run the the Api with:
+Run the Api with:
 ```
 startapi.sh
 ```
